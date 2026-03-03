@@ -1,0 +1,23 @@
+{
+  "name": "tech-nexus",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "preview": "nuxt preview"
+  },
+  "dependencies": {
+    "@motionone/vue": "^10.16.4",
+    "lucide-vue-next": "^0.575.0",
+    "nuxt": "^4.3.1",
+    "vue": "^3.5.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.2.1",
+    "autoprefixer": "^10.4.27",
+    "postcss": "^8.5.8",
+    "tailwindcss": "^4.2.1",
+    "typescript": "^5.8.0"
+  }
+}
