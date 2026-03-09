@@ -46,19 +46,19 @@
 const steps = [
   {
     title: "Consultation",
-    desc: "We start with a deep dive into your business needs."
+    desc: "We start with a deep dive into your business needs and technical requirements."
   },
   {
     title: "Strategy & Design",
-    desc: "We craft a custom roadmap and intuitive interface."
+    desc: "Our team crafts a custom roadmap and intuitive user interfaces for your project."
   },
   {
     title: "Development",
-    desc: "We build using enterprise-grade tech stacks."
+    desc: "We build your solution using enterprise-grade tech stacks and agile methodologies."
   },
   {
     title: "Launch & Support",
-    desc: "Smooth deployment with ongoing maintenance."
+    desc: "We ensure a smooth deployment and provide ongoing maintenance and scaling."
   }
 ]
 </script>

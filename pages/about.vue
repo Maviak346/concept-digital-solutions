@@ -3,6 +3,7 @@ import PageBanner from '~/components/sections/PageBanner.vue'
 import AboutSection from '~/components/sections/AboutSection.vue'
 import WhyUs from '~/components/sections/WhyUs.vue'
 import OurTeam from '~/components/sections/OurTeam.vue'
+import MissionVision from '~/components/sections/MissionVision.vue'
 </script>
 
 <template>
@@ -15,4 +16,5 @@ import OurTeam from '~/components/sections/OurTeam.vue'
   <AboutSection theme="light" />
   <WhyUs />
   <OurTeam />
+  <MissionVision />
 </template>

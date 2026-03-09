@@ -1,5 +1,8 @@
 <template>
   <section class="relative pt-48 pb-32 bg-brand-dark overflow-hidden">
+    <div class="absolute -top-24 -right-24 w-[500px] h-[500px] bg-brand-primary/10 rounded-full blur-[150px]"
+      style="transform: scale(1.1857) rotate(83.565deg);"></div>
+    <div class="absolute -bottom-24 -left-24 w-[500px] h-[500px] bg-brand-accent/10 rounded-full blur-[150px]"></div>
     <div class="container-custom relative z-10">
       <div class="max-w-3xl">
 

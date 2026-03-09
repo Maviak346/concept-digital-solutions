@@ -16,7 +16,7 @@
         </h2>
 
         <p class="text-body-large max-w-2xl mx-auto">
-          We offer a comprehensive suite of services tailored to meet modern enterprise challenges.
+          We offer a comprehensive suite of services tailored to meet the unique challenges of modern enterprises.
         </p>
       </div>
 
