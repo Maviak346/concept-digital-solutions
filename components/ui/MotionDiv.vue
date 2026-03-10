@@ -1,8 +1,8 @@
 <template>
   <ClientOnly>
-    <MotionDiv v-bind="$attrs">
+    <Motion v-bind="$attrs">
       <slot />
-    </MotionDiv>
+    </Motion>
   </ClientOnly>
 </template>
 

@@ -78,7 +78,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted, watch } from 'vue'
+import { ref, onMounted, onUnmounted, watch } from 'vue'
 import { useRoute } from 'vue-router'
 
 const isOpen = ref(false)
@@ -99,10 +99,16 @@ const isActive = (path) => {
 
 watch(route, () => (isOpen.value = false))
 
+const handleScroll = () => {
+  scrolled.value = window.scrollY > 50
+}
+
 onMounted(() => {
-  window.addEventListener('scroll', () => {
-    scrolled.value = window.scrollY > 50
-  })
+  window.addEventListener('scroll', handleScroll)
+})
+
+onUnmounted(() => {
+  window.removeEventListener('scroll', handleScroll)
 })
 
 const close = () => (isOpen.value = false)
